@@ -1,2 +1,2 @@
 # appDevelopment
-I amm currintly learning app development using kotlin
+I am currently learning app development using Kotlin
