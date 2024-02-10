@@ -6,5 +6,16 @@ fun main(){
     println(hw2q1)
 
     val q2 = Homework2()
-    val rectangle = q2.rectangleArea(5,13)
+    q2.rectangleArea(5,13)
+
+    val factorial = Homework2()
+    val q3 = factorial.factorial(5)
+    println("5! = $q3")
+
+    val q4 = Homework2()
+    q4.howManyE("özge")
+
+    val q5 = Homework2()
+    val angle = q5.InteriorAngle(5)
+    println("Interior angle: $angle")
 }
