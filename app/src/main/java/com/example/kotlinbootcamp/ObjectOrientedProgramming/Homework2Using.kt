@@ -18,4 +18,13 @@ fun main(){
     val q5 = Homework2()
     val angle = q5.InteriorAngle(5)
     println("Interior angle: $angle")
+
+    val day = 30
+    val q6 = Homework2()
+    val salary = q6.salaryCalculator(day)
+    println("Salary of working $day day is $salary₺ ")
+
+    val q7 = Homework2()
+    val parkingFee = q7.parkingFeeCalculator(4)
+    println("Parking fee is $parkingFee₺")
 }
