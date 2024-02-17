@@ -1,6 +1,6 @@
 package com.example.kotlinbootcamp.ObjectOrientedProgramming
 
-class Car(var color:String, var speed:Int, var isRunning:Boolean) {
+data class Car(var color:String, var speed:Int, var isRunning:Boolean) {
     //constructor
     init {
         println("Constructor's run.")
