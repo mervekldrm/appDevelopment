@@ -9,7 +9,14 @@ fun main(){
     val d2 = Directors(2, "Christopher Nolan")
     val d3 = Directors(3, "Hayao Miyazaki")
 
-    val m1 = Movies(1, "Django", 2013,)
+    val m1 = Movies(1, "Django", 2013, c1, d1)
+
+    println("Movie ID : ${m1.movie_id}")
+    println("Movie name : ${m1.movie_name}")
+    println("Movie year : ${m1.movie_year}")
+    println("Movie category : ${c1.category_name}")
+    println("Movie director : ${d1.director_name}")
+
 
 
 
